@@ -1,0 +1,1137 @@
+
+EDK II WIN Host Emulation Environment from http://www.tianocore.org/edk2/
+  BootMode 0x00
+  FD loaded from ../FV/FV_RECOVERY.fd contains SEC Core
+  OS Emulator clearing temp RAM and physical RAM (to be discovered later)......
+  OS Emulator passing in 128 KB of temp RAM at 0x03180000 to SEC
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\Sec\Sec\DEBUG\EmuSec.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x10000
+SEC Has Started
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x31A0000
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\ReportStatusCodeRouter\Pei\ReportStatusCodeRouterPei\DEBUG\ReportStatusCodeRouterPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x1510000
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\StatusCodeHandler\Pei\StatusCodeHandlerPei\DEBUG\StatusCodeHandlerPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x31C0000
+PROGRESS CODE: V03020003 I0
+Loading PEIM 9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\PCD\Pei\Pcd\DEBUG\PcdPeim.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x31D0000
+Loading PEIM at 0x0000F2ABDE0 EntryPoint=0x000031D0270 PcdPeim.efi
+PROGRESS CODE: V03020002 I0
+Install PPI: 06E81C58-4AD7-44BC-8390-F10265F72480
+Install PPI: 01F34D25-4DE2-23AD-3FF3-36353FF323F1
+Install PPI: 4D8B155B-C059-4C8F-8926-06FD4331DB8A
+Install PPI: A60C6B59-E459-425D-9C69-0BCC9CB27D81
+Register PPI Notify: 605EA650-C65C-42E1-BA80-91A52AB618C6
+PROGRESS CODE: V03020003 I0
+Loading PEIM 64196C76-58E3-0B4D-9484-B54F7C4349CA
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\BootModePei\BootModePei\DEBUG\BootModePei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x31E0000
+Loading PEIM at 0x0000F2BAEA0 EntryPoint=0x000031E0270 BootModePei.efi
+PROGRESS CODE: V03020002 I0
+Emu Boot Mode PEIM Loaded
+Install PPI: 7408D748-FC8C-4EE6-9288-C4BEC092A410
+PROGRESS CODE: V03020003 I0
+Loading PEIM 2D6F6BCC-9681-8E42-8579-B57DCD0060F0
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\AutoScanPei\AutoScanPei\DEBUG\AutoScanPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x31F0000
+Loading PEIM at 0x0000F2BD640 EntryPoint=0x000031F0270 AutoScanPei.efi
+PROGRESS CODE: V03020002 I0
+Emu Autoscan PEIM Loaded
+PeiInstallPeiMemory MemoryBegin 0x7290000, MemoryLength 0x4000000
+PROGRESS CODE: V03020003 I0
+Temp Stack : BaseAddress=0x3180000 Length=0x10000
+Temp Heap  : BaseAddress=0x3190000 Length=0x10000
+Total temporary memory:    131072 bytes.
+  temporary memory stack ever used:       8608 bytes.
+  temporary memory heap used for HobList: 3080 bytes.
+  temporary memory heap occupied by memory pages: 0 bytes.
+Old Stack size 65536, New stack size 131072
+Stack Hob: BaseAddress=0x7290000 Length=0x20000
+Heap Offset = 0x4120000 Stack Offset = 0x4120000
+Loading PEIM 52C05B14-0B98-496C-BC3B-04B50211D680
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x31A0000
+Loading PEIM at 0x0000B277000 EntryPoint=0x000031A0330 PeiCore.efi
+Reinstall PPI: 8C8CE578-8A3D-4F1C-9935-896185C32DD3
+Reinstall PPI: 5473C07A-3DCB-4DCA-BD6F-1E9689E7349A
+Reinstall PPI: B9E0ABFE-5979-4914-977F-6DEE78C278A6
+Install PPI: F894643D-C449-42D1-8EA8-85BDD8C65BDE
+Loading PEIM 9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\PCD\Pei\Pcd\DEBUG\PcdPeim.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x31D0000
+Loading PEIM at 0x0000B270000 EntryPoint=0x000031D0270 PcdPeim.efi
+Reinstall PPI: 06E81C58-4AD7-44BC-8390-F10265F72480
+Reinstall PPI: 4D8B155B-C059-4C8F-8926-06FD4331DB8A
+Reinstall PPI: 01F34D25-4DE2-23AD-3FF3-36353FF323F1
+Reinstall PPI: A60C6B59-E459-425D-9C69-0BCC9CB27D81
+Loading PEIM 6DB075DE-449E-2644-96D0-CC5A1B4C3B2A
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x3200000
+Loading PEIM at 0x0000B26D000 EntryPoint=0x00003200270 FirmwareVolumePei.efi
+PROGRESS CODE: V03020002 I0
+Unix Firmware Volume PEIM Loaded
+PROGRESS CODE: V03020003 I0
+Loading PEIM C9FAF091-57F8-A64C-A07A-445B124F0D93
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\FlashMapPei\FlashMapPei\DEBUG\FlashMapPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x3220000
+Loading PEIM at 0x0000B26A000 EntryPoint=0x00003220270 FlashMapPei.efi
+PROGRESS CODE: V03020002 I0
+EmulatorPkg Flash Map PEIM Loaded
+PROGRESS CODE: V03020003 I0
+Loading PEIM C32A66D5-D8B7-2640-B768-082C8F083C37
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x3230000
+Loading PEIM at 0x0000B267000 EntryPoint=0x00003230270 ThunkPpiToProtocolPei.efi
+PROGRESS CODE: V03020002 I0
+Emu Thunk PEIM Loaded
+PROGRESS CODE: V03020003 I0
+Loading PEIM AAC33064-9ED0-4B89-A5AD-3EA767960B22
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\FaultTolerantWritePei\FaultTolerantWritePei\DEBUG\FaultTolerantWritePei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x3240000
+Loading PEIM at 0x0000B263000 EntryPoint=0x00003240270 FaultTolerantWritePei.efi
+PROGRESS CODE: V03020002 I0
+Install PPI: 1D3E9CB8-43AF-490B-830A-3516AA532047
+PROGRESS CODE: V03020003 I0
+Loading PEIM 34C8C28F-B61C-45A2-8F2E-89E46BECC63B
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Variable\Pei\VariablePei\DEBUG\PeiVariable.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x3250000
+Loading PEIM at 0x0000B25D000 EntryPoint=0x00003250270 PeiVariable.efi
+PROGRESS CODE: V03020002 I0
+Register PPI Notify: F894643D-C449-42D1-8EA8-85BDD8C65BDE
+Notify: PPI Guid: F894643D-C449-42D1-8EA8-85BDD8C65BDE, Peim notify entry point: 3251D20
+PeiVariable: CACHE_INFO_FLAG Buffer is: 0xB25C000, number of pages is: 0x1
+PeiVariable: Volatile cache Buffer is: 0xB24C000, number of pages is: 0x10
+PeiVariable: NV cache Buffer is: 0xB240000, number of pages is: 0xC
+PeiVariable: HOB cache Buffer is: 0x0, number of pages is: 0x0
+Install PPI: 2AB86EF5-ECB5-4134-B556-3854CA1FE1B4
+PROGRESS CODE: V03020003 I0
+Loading PEIM 86D70125-BAA3-4296-A62F-602BEBBB9081
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x3260000
+Loading PEIM at 0x0000B236000 EntryPoint=0x00003260330 DxeIpl.efi
+PROGRESS CODE: V03020002 I0
+PROGRESS CODE: V03020003 I0
+Install PPI: 1A36E4E7-FAB6-476A-8E75-695A0576FDD7
+Install PPI: 0AE8CE5D-E448-4437-A8D7-EBF5F194F731
+DXE IPL Entry
+Loading PEIM D6A2CB7F-6A18-4E2F-B43B-9920A733700A
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF830000
+Loading PEIM at 0x0000B1B9000 EntryPoint=0x0000F8310A0 DxeCore.efi
+PROGRESS CODE: V03021001 I0
+Loading DXE CORE at 0x0000B1B9000 EntryPoint=0x0000F8310A0
+Install PPI: 605EA650-C65C-42E1-BA80-91A52AB618C6
+Notify: PPI Guid: 605EA650-C65C-42E1-BA80-91A52AB618C6, Peim notify entry point: 31A69A0
+PeiDelayedDispatchOnEndOfPei Count of dispatch cycles is 0
+Notify: PPI Guid: 605EA650-C65C-42E1-BA80-91A52AB618C6, Peim notify entry point: 31D05F0
+HandOffToDxeCore() Stack Base: 0xB199000, Stack Size: 0x20000
+DxeMain: MemoryBaseAddress=0x72B2000 MemoryLength=0x3EE7000
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF830000
+HOBLIST address in DXE = 0xB195010
+Memory Allocation 0x00000004 0xB199000 - 0xB1B8FFF
+Memory Allocation 0x00000003 0xB277000 - 0xB28FFFF
+Memory Allocation 0x00000003 0xB270000 - 0xB276FFF
+Memory Allocation 0x00000003 0xB26D000 - 0xB26FFFF
+Memory Allocation 0x00000003 0xB26A000 - 0xB26CFFF
+Memory Allocation 0x00000003 0xB267000 - 0xB269FFF
+Memory Allocation 0x00000003 0xB263000 - 0xB266FFF
+Memory Allocation 0x00000003 0xB25D000 - 0xB262FFF
+Memory Allocation 0x00000006 0xB25C000 - 0xB25CFFF
+Memory Allocation 0x00000006 0xB24C000 - 0xB25BFFF
+Memory Allocation 0x00000006 0xB240000 - 0xB24BFFF
+Memory Allocation 0x00000003 0xB236000 - 0xB23FFFF
+Memory Allocation 0x00000004 0xB232000 - 0xB235FFF
+Memory Allocation 0x00000004 0xB1F5000 - 0xB231FFF
+Memory Allocation 0x00000003 0xB1B9000 - 0xB1F4FFF
+Memory Allocation 0x00000003 0xB1B9000 - 0xB1F4FFF
+Memory Allocation 0x00000004 0xB199000 - 0xB1B8FFF
+Memory Allocation 0x00000004 0x7290000 - 0x72AFFFF
+FV Hob            0xF290000 - 0xF80FFFF
+FV Hob            0xF810000 - 0xF82FFFF
+InstallProtocolInterface: D8117CFE-94A6-11D4-9A3A-0090273FC14D F8685E0
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 B18FC1C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B B18FE10
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 B18F99C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B B18F510
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A B18EF9C
+InstallProtocolInterface: EE4E5898-3914-4259-9D6E-DC7BD79403CF F868F90
+InstallProtocolInterface: FC1BCDB0-7D31-49AA-936A-A4600D9DD083 F868F90
+Loading driver 80CF7257-87AB-47F9-A3FE-D50B76D89541
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B AE657A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\PCD\Dxe\Pcd\DEBUG\PcdDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF870000
+Loading driver at 0x0000AE32000 EntryPoint=0x0000F871050 PcdDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF AE65710
+ProtectUefiImageCommon - 0xAE657A8
+  - 0x000000000AE32000 - 0x000000000000C000
+InstallProtocolInterface: 11B34006-D85B-4D0A-A290-D5A571310EF7 F87A148
+InstallProtocolInterface: 13A3F0F6-264A-3EF0-F2E0-DEC512342F34 F87A0F8
+InstallProtocolInterface: 5BE40F57-FA68-4610-BBBF-E9C5FCDAD365 F87A1D0
+InstallProtocolInterface: FD0F4478-0EFD-461D-BA2D-E58C45FD5F5E F87A140
+Loading driver C8339973-A563-4561-B858-D8476F9DEFC4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B AE4A6A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Metronome\Metronome\DEBUG\Metronome.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF880000
+Loading driver at 0x0000AE1B000 EntryPoint=0x0000F8810D0 Metronome.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF AE4A510
+ProtectUefiImageCommon - 0xAE4A6A8
+  - 0x000000000AE1B000 - 0x0000000000007000
+InstallProtocolInterface: 26BACCB2-6F42-11D4-BCE7-0080C73C8881 F885094
+Loading driver D93CE3D8-A7EB-4730-8C8E-CC466A9ECC3C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B AE41128
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\ReportStatusCodeRouter\RuntimeDxe\ReportStatusCodeRouterRuntimeDxe\DEBUG\ReportStatusCodeRouterRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF890000
+Loading driver at 0x0000AE22000 EntryPoint=0x0000F8910D0 ReportStatusCodeRouterRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF AE41890
+ProtectUefiImageCommon - 0xAE41128
+  - 0x000000000AE22000 - 0x0000000000008000
+InstallProtocolInterface: 86212936-0E76-41C8-A03A-2AF2FC1C39E2 F8960B0
+InstallProtocolInterface: D2B2B828-0826-48A7-B3DF-983C006024F0 F8960AC
+Loading driver F3552032-8985-11DB-8429-0040D02B1835
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B AE08C28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\RealTimeClockRuntimeDxe\RealTimeClock\DEBUG\RealTimeClock.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF8A0000
+Loading driver at 0x0000ADE9000 EntryPoint=0x0000F8A1050 RealTimeClock.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF AE08990
+ProtectUefiImageCommon - 0xAE08C28
+  - 0x000000000ADE9000 - 0x0000000000007000
+InstallProtocolInterface: 27CFAC87-46CC-11D4-9A38-0090273FC14D 0
+Loading driver 50A18017-37AD-8743-BCF2-DF1A8FF12FAB
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B AE08228
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\ResetRuntimeDxe\Reset\DEBUG\EmuReset.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF8B0000
+Loading driver at 0x0000ADD1000 EntryPoint=0x0000F8B1050 EmuReset.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF ADD8F90
+ProtectUefiImageCommon - 0xAE08228
+  - 0x000000000ADD1000 - 0x0000000000007000
+InstallProtocolInterface: 27CFAC88-46CC-11D4-9A38-0090273FC14D 0
+Loading driver B601F8C4-43B7-4784-95B1-F4226CB40CEE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B ADD87A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\RuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF8C0000
+Loading driver at 0x0000ADBA000 EntryPoint=0x0000F8C1050 RuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF ADD8690
+ProtectUefiImageCommon - 0xADD87A8
+  - 0x000000000ADBA000 - 0x0000000000007000
+InstallProtocolInterface: B7DFB4E1-052F-449F-87BE-9818FC91B733 F8C5084
+Loading driver A01E498C-96E8-2A4C-95F4-85248F989753
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B ADC8B28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\FvbServicesRuntimeDxe\FvbServicesRuntimeDxe\DEBUG\FwBlockService.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF8D0000
+Loading driver at 0x0000AD97000 EntryPoint=0x0000F8D1050 FwBlockService.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF ADC8A10
+ProtectUefiImageCommon - 0xADC8B28
+  - 0x000000000AD97000 - 0x0000000000008000
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 ADC7B34
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B ADC7B14
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A ADC849C
+FvImage on FvHandle ADC8710 and B18FD90 has the same FvNameGuid 6D99E806-3D38-42C2-A095-5F4300BFD7DC.
+Loading driver F80697E9-7FD6-4665-8646-88E33EF71DFC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B ADC42A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\SecurityStubDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF8E0000
+Loading driver at 0x0000AD5C000 EntryPoint=0x0000F8E1050 SecurityStubDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF ADC3B10
+ProtectUefiImageCommon - 0xADC42A8
+  - 0x000000000AD5C000 - 0x000000000000E000
+InstallProtocolInterface: 94AB2F58-1438-4EF1-9152-18941A3A0E68 F8EC1B8
+InstallProtocolInterface: A46423E3-4617-49F1-B9FF-D1BFA9115839 F8EC1B4
+InstallProtocolInterface: 15853D7C-3DDF-43E0-A1CB-EBF85B8F872C F8EC1BC
+Loading driver 13AC6DD0-73D0-11D4-B06B-00AA00BD6DE7
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B ADC32A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF8F0000
+Loading driver at 0x0000AD6A000 EntryPoint=0x0000F8F1150 EbcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF ADC2F10
+ProtectUefiImageCommon - 0xADC32A8
+  - 0x000000000AD6A000 - 0x000000000000F000
+InstallProtocolInterface: 13AC6DD1-73D0-11D4-B06B-00AA00BD6DE7 ADC2E90
+InstallProtocolInterface: 96F46153-97A7-4793-ACC1-FA19BF78EA97 F8FD0C4
+InstallProtocolInterface: 2755590C-6F3C-42FA-9EA4-A3BA543CDA25 ADC2090
+InstallProtocolInterface: AAEACCFD-F27B-4C17-B610-75CA1F2DFB52 ADC2890
+Loading driver 96B5C032-DF4C-4B6E-8232-438DCF448D0E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B ADC2228
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\MemoryTest\NullMemoryTestDxe\NullMemoryTestDxe\DEBUG\NullMemoryTestDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF900000
+Loading driver at 0x0000A925000 EntryPoint=0x0000F901050 NullMemoryTestDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF ADC1F10
+ProtectUefiImageCommon - 0xADC2228
+  - 0x000000000A925000 - 0x0000000000007000
+InstallProtocolInterface: 309DE7F1-7F5E-4ACE-B49C-531BE5AA95EF F905074
+Loading driver 2F62A818-4A72-CD40-90B9-FF00DAABEE7B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B ADC17A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuThunkDxe\EmuThunk\DEBUG\EmuThunk.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF910000
+Loading driver at 0x0000A90E000 EntryPoint=0x0000F911050 EmuThunk.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF ADC1590
+ProtectUefiImageCommon - 0xADC17A8
+  - 0x000000000A90E000 - 0x0000000000007000
+InstallProtocolInterface: 5CF32E0B-8EDF-2E44-9CDA-93205E99EC1C 5D5158
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B F915084
+Loading driver CBD2E4D5-7068-4FF5-B462-9822B4AD8D60
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B AD9FBA8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF920000
+Loading driver at 0x0000A8B3000 EntryPoint=0x0000F9210D0 VariableRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF AD9FA90
+ProtectUefiImageCommon - 0xAD9FBA8
+  - 0x000000000A8B3000 - 0x0000000000016000
+InstallProtocolInterface: CD3D0A05-9E24-437C-A891-1EE053DB7638 F934204
+InstallProtocolInterface: AF23B340-97B4-4685-8D4F-A3F28169B21D F934208
+InstallProtocolInterface: 1E5668E2-8481-11D4-BCF1-0080C73C8881 0
+InstallProtocolInterface: 81D1675C-86F6-48DF-BD95-9A6E4F0925C3 F934218
+Loading driver 9A5163E7-5C29-453F-825C-837A46A81E15
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A916128
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\SerialDxe\SerialDxe\DEBUG\SerialDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF940000
+Loading driver at 0x0000A891000 EntryPoint=0x0000F941050 SerialDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A916A90
+ProtectUefiImageCommon - 0xA916128
+  - 0x000000000A891000 - 0x0000000000005000
+Error: Image at 0000A891000 start failed: Device Error
+FreeLibrary (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\SerialDxe\SerialDxe\DEBUG\SerialDxe.pdb)
+Loading driver 9B680FCE-AD6B-4F3A-B60B-F59899003443
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A916128
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\DevicePathDxe\DevicePathDxe\DEBUG\DevicePathDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF940000
+Loading driver at 0x0000A84D000 EntryPoint=0x0000F941050 DevicePathDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A916790
+ProtectUefiImageCommon - 0xA916128
+  - 0x000000000A84D000 - 0x0000000000013000
+InstallProtocolInterface: 0379BE4E-D706-437D-B037-EDB82FB772A4 F94E134
+InstallProtocolInterface: 8B843E20-8132-4852-90CC-551A4E4A7F1C F94E12C
+InstallProtocolInterface: 05C99A21-C70F-4AD2-8A5F-35DF3343F51E F94E154
+Loading driver F9D88642-0737-49BC-81B5-6889CD57D9EA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A915C28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\SmbiosDxe\SmbiosDxe\DEBUG\SmbiosDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF960000
+Loading driver at 0x0000A82A000 EntryPoint=0x0000F961050 SmbiosDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A915990
+ProtectUefiImageCommon - 0xA915C28
+  - 0x000000000A82A000 - 0x000000000000B000
+InstallProtocolInterface: 03583FF6-CB36-4940-947E-B9B39F4AFAF7 F969148
+Loading driver 348C4D62-BFBD-4882-9ECE-C80BB1C4783B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A9152A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF970000
+Loading driver at 0x0000A773000 EntryPoint=0x0000F971050 HiiDatabase.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A8CCB10
+ProtectUefiImageCommon - 0xA9152A8
+  - 0x000000000A773000 - 0x000000000002D000
+InstallProtocolInterface: E9CA4775-8657-47FC-97E7-7ED65A084324 F99A1AC
+InstallProtocolInterface: 0FD96974-23AA-4CDC-B9CB-98D17750322A F99A1E8
+InstallProtocolInterface: EF9FC172-A1B2-4693-B327-6D32FC416042 F99A1FC
+InstallProtocolInterface: 587E72D7-CC50-4F79-8209-CA291FC1A10F F99A228
+InstallProtocolInterface: 0A8BADD5-03B8-4D19-B128-7B8F0EDAA596 F99A240
+InstallProtocolInterface: 31A6406A-6BDF-4E46-B2A2-EBAA89C40920 F99A1BC
+InstallProtocolInterface: 1A1241E6-8F19-41A9-BC0E-E8EF39E06546 F99A1D0
+Loading driver 79E4A61C-ED73-4312-94FE-E3E7563362A9
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A8CB028
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\PrintDxe\PrintDxe\DEBUG\PrintDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF9A0000
+Loading driver at 0x0000A7B1000 EntryPoint=0x0000F9A1050 PrintDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A8CBE90
+ProtectUefiImageCommon - 0xA8CB028
+  - 0x000000000A7B1000 - 0x0000000000009000
+InstallProtocolInterface: F05976EF-83F1-4F3D-8619-F7595D41E538 F9A52FC
+InstallProtocolInterface: 0CC252D2-C106-4661-B5BD-3147A4F81F92 F9A5324
+Loading driver BD712601-082F-4C59-8677-2C8A3C297948
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A8CB2A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\LoadFileOnFv2\LoadFileOnFv2\DEBUG\LoadFileOnFv2.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF9B0000
+Loading driver at 0x0000A860000 EntryPoint=0x0000F9B1050 LoadFileOnFv2.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A8CB490
+ProtectUefiImageCommon - 0xA8CB2A8
+  - 0x000000000A860000 - 0x0000000000008000
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B A8CAA90
+InstallProtocolInterface: 56EC3091-954C-11D2-8E3F-00A0C969723B A8CAD14
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B A8CA290
+InstallProtocolInterface: 56EC3091-954C-11D2-8E3F-00A0C969723B A8CA514
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B A8C9A10
+InstallProtocolInterface: 56EC3091-954C-11D2-8E3F-00A0C969723B A8C9C94
+Loading driver B981A835-6EE8-4F4C-AE0B-210AA0BFBF01
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A8361A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\SecurityPkg\RandomNumberGenerator\RngDxe\RngDxe\DEBUG\RngDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF9C0000
+Loading driver at 0x0000A7A0000 EntryPoint=0x0000F9C10D0 RngDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A836390
+ProtectUefiImageCommon - 0xA8361A8
+  - 0x000000000A7A0000 - 0x0000000000008000
+InstallProtocolInterface: 3152BCA5-EADE-433D-862E-C01CDC291F44 F9C60B4
+Loading driver A210F973-229D-4F4D-AA37-9895E6C9EABA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A8357A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\DpcDxe\DpcDxe\DEBUG\DpcDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF9D0000
+Loading driver at 0x0000A100000 EntryPoint=0x0000F9D1050 DpcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A835710
+ProtectUefiImageCommon - 0xA8357A8
+  - 0x000000000A100000 - 0x0000000000007000
+InstallProtocolInterface: 480F8AE9-0C46-4AA9-BC89-DB9FBA619806 F9D5064
+Loading driver 6C2004EF-4E0E-4BE4-B14C-340EB4AA5891
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A7BAB28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\StatusCodeHandler\RuntimeDxe\StatusCodeHandlerRuntimeDxe\DEBUG\StatusCodeHandlerRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF9E0000
+Loading driver at 0x0000A0D9000 EntryPoint=0x0000F9E1050 StatusCodeHandlerRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A7BAE10
+ProtectUefiImageCommon - 0xA7BAB28
+  - 0x000000000A0D9000 - 0x0000000000009000
+PROGRESS CODE: V03040003 I0
+Loading driver F3794B60-8985-11DB-8E53-0040D02B1835
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A7BA5A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\CpuRuntimeDxe\Cpu\DEBUG\Cpu.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xF9F0000
+Loading driver at 0x0000A0BC000 EntryPoint=0x0000F9F10D0 Cpu.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A7BA410
+ProtectUefiImageCommon - 0xA7BA5A8
+  - 0x000000000A0BC000 - 0x0000000000009000
+PROGRESS CODE: V03040002 I0
+SmbiosAdd: Smbios type 4 with size 0x79 is added to 32-bit table
+SmbiosAdd: Smbios type 4 with size 0x79 is added to 64-bit table
+SmbiosCreateTable: Initialize 32-bit entry point structure
+SmbiosCreateTable() re-allocate SMBIOS 32-bit table
+SmbiosCreateTable: Initialize 64-bit entry point structure
+SmbiosCreate64BitTable() re-allocate SMBIOS 64-bit table
+InstallProtocolInterface: 26BACCB1-6F42-11D4-BCE7-0080C73C8881 F9F7190
+InstallProtocolInterface: AD61F191-AE5F-4C0E-B9FA-E869D288C64F F9F71B8
+MemoryProtectionCpuArchProtocolNotify:
+PROGRESS CODE: V03040003 I0
+Loading driver FE5CEA76-4F72-49E8-986F-2CD899DFFE5D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A10D828
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\FaultTolerantWriteDxe\FaultTolerantWriteDxe\DEBUG\FaultTolerantWriteDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFA00000
+Loading driver at 0x0000A085000 EntryPoint=0x0000FA01050 FaultTolerantWriteDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A10D190
+ProtectUefiImageCommon - 0xA10D828
+  - 0x000000000A085000 - 0x000000000000D000
+PROGRESS CODE: V03040002 I0
+Ftw: FtwWorkSpaceLba - 0x0, WorkBlockSize  - 0x10000, FtwWorkSpaceBase - 0xE000
+Ftw: FtwSpareLba     - 0x1, SpareBlockSize - 0x10000
+Ftw: NumberOfWorkBlock - 0x1, FtwWorkBlockLba - 0x0
+Ftw: WorkSpaceLbaInSpare - 0x0, WorkSpaceBaseInSpare - 0xE000
+Ftw: Remaining work space size - 1FE0
+InstallProtocolInterface: 3EBD9E82-2C78-4DE6-9786-8D4BFCB7C881 A0CC018
+RecordSecureBootPolicyVarData GetVariable SecureBoot Status 8000000E
+InstallProtocolInterface: 6441F818-6362-4E44-B570-7DBA31DD2453 0
+PROGRESS CODE: V03040003 I0
+Loading driver 67FA951E-4FA2-9F4E-A658-4DBD954AC22E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A108028
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\PlatformSmbiosDxe\PlatformSmbiosDxe\DEBUG\PlatformSmbiosDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFA10000
+Loading driver at 0x0000A0C5000 EntryPoint=0x0000FA11050 PlatformSmbiosDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A108C90
+ProtectUefiImageCommon - 0xA108028
+  - 0x000000000A0C5000 - 0x0000000000007000
+PROGRESS CODE: V03040002 I0
+SmbiosAdd: Smbios type 0 with size 0x4F is added to 32-bit table
+SmbiosAdd: Smbios type 0 with size 0x4F is added to 64-bit table
+SmbiosAdd: Smbios type 1 with size 0x6B is added to 32-bit table
+SmbiosAdd: Smbios type 1 with size 0x6B is added to 64-bit table
+SmbiosAdd: Smbios type 2 with size 0x79 is added to 32-bit table
+SmbiosAdd: Smbios type 2 with size 0x79 is added to 64-bit table
+SmbiosAdd: Smbios type 3 with size 0x73 is added to 32-bit table
+SmbiosAdd: Smbios type 3 with size 0x73 is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x1B is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x1B is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x17 is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x17 is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x13 is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x13 is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x18 is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x18 is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x19 is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x19 is added to 64-bit table
+SmbiosAdd: Smbios type 9 with size 0x21 is added to 32-bit table
+SmbiosAdd: Smbios type 9 with size 0x21 is added to 64-bit table
+SmbiosAdd: Smbios type 11 with size 0x42 is added to 32-bit table
+SmbiosAdd: Smbios type 11 with size 0x42 is added to 64-bit table
+SmbiosAdd: Smbios type 12 with size 0x51 is added to 32-bit table
+SmbiosAdd: Smbios type 12 with size 0x51 is added to 64-bit table
+SmbiosAdd: Smbios type 16 with size 0x19 is added to 32-bit table
+SmbiosAdd: Smbios type 16 with size 0x19 is added to 64-bit table
+SmbiosAdd: Smbios type 17 with size 0x82 is added to 32-bit table
+SmbiosAdd: Smbios type 17 with size 0x82 is added to 64-bit table
+SmbiosAdd: Smbios type 32 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 32 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 32 with size 0xD is added to 32-bit table
+SmbiosAdd: Smbios type 32 with size 0xD is added to 64-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 32-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 64-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 32-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 64-bit table
+PROGRESS CODE: V03040003 I0
+Loading driver EBF342FE-B1D3-4EF8-957C-8048606FF671
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A097B28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\SetupBrowserDxe\SetupBrowserDxe\DEBUG\SetupBrowser.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFA20000
+Loading driver at 0x00009FDA000 EntryPoint=0x0000FA21050 SetupBrowser.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A097D90
+ProtectUefiImageCommon - 0xA097B28
+  - 0x0000000009FDA000 - 0x0000000000028000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: B9D4C360-BCFB-4F9B-9298-53C136982258 FA451B8
+InstallProtocolInterface: A770C357-B693-4E6D-A6CF-D21C728E550B FA451D0
+InstallProtocolInterface: 1F73B18D-4630-43C1-A1DE-6F80855D7DA4 FA451C0
+PROGRESS CODE: V03040003 I0
+Loading driver F74D20EE-37E7-48FC-97F7-9B1047749C69
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A096B28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Logo\LogoDxe\DEBUG\LogoDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFA50000
+Loading driver at 0x0000A004000 EntryPoint=0x0000FA51050 LogoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A096D90
+InstallProtocolInterface: 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC A009060
+ProtectUefiImageCommon - 0xA096B28
+  - 0x000000000A004000 - 0x0000000000009000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 53CD299F-2BC1-40C0-8C07-23F64FDB30E0 FA54094
+PROGRESS CODE: V03040003 I0
+Loading driver A487A478-51EF-48AA-8794-7BEE2A0562F1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A092BA8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\ShellPkg\DynamicCommand\TftpDynamicCommand\TftpDynamicCommand\DEBUG\tftpDynamicCommand.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFA60000
+Loading driver at 0x00009F87000 EntryPoint=0x0000FA61050 tftpDynamicCommand.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A092A10
+InstallProtocolInterface: 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC 9F98060
+ProtectUefiImageCommon - 0xA092BA8
+  - 0x0000000009F87000 - 0x0000000000014000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 3C7200E9-005F-4EA4-87DE-A3DFAC8A27C3 FA70194
+PROGRESS CODE: V03040003 I0
+Loading driver 87E1BB14-4D5C-7C4E-A90E-E1415687D062
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A003028
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\TimerDxe\Timer\DEBUG\EmuTimer.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFA80000
+Loading driver at 0x00009F80000 EntryPoint=0x0000FA81050 EmuTimer.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A003F90
+ProtectUefiImageCommon - 0xA003028
+  - 0x0000000009F80000 - 0x0000000000007000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 26BACCB3-6F42-11D4-BCE7-0080C73C8881 FA85094
+PROGRESS CODE: V03040003 I0
+Loading driver AD608272-D07F-4964-801E-7BD3B7888652
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A0033A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\MonotonicCounterRuntimeDxe\MonotonicCounterRuntimeDxe\DEBUG\MonotonicCounterRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFBD0000
+Loading driver at 0x00009F69000 EntryPoint=0x0000FBD1050 MonotonicCounterRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9F9FF90
+ProtectUefiImageCommon - 0xA0033A8
+  - 0x0000000009F69000 - 0x0000000000007000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 1DA97072-BDDC-4B30-99F1-72A0B56FFF2A 0
+PROGRESS CODE: V03040003 I0
+Loading driver 42857F0A-13F2-4B21-8A23-53D3F714B840
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9F9F128
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe\DEBUG\CapsuleRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFBE0000
+Loading driver at 0x00009F70000 EntryPoint=0x0000FBE1050 CapsuleRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9F9F310
+ProtectUefiImageCommon - 0x9F9F128
+  - 0x0000000009F70000 - 0x0000000000008000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 5053697E-2CBC-4819-90D9-0580DEEE5754 0
+PROGRESS CODE: V03040003 I0
+Loading driver E660EA85-058E-4B55-A54B-F02F83A24707
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9F9D128
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFBF0000
+Loading driver at 0x00009ED0000 EntryPoint=0x0000FBF1050 DisplayEngine.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9F9DA10
+ProtectUefiImageCommon - 0x9F9D128
+  - 0x0000000009ED0000 - 0x0000000000021000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 9BBE29E9-FDA1-41EC-AD52-452213742D2E FC0D718
+InstallProtocolInterface: 4311EDC0-6054-46D4-9E40-893EA952FCCC FC0D728
+PROGRESS CODE: V03040003 I0
+Loading driver 6D33944A-EC75-4855-A54D-809C75241F6C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9F0E1A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\BdsDxe\BdsDxe\DEBUG\BdsDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFC20000
+Loading driver at 0x00009E39000 EntryPoint=0x0000FC21050 BdsDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9F0E490
+ProtectUefiImageCommon - 0x9F0E1A8
+  - 0x0000000009E39000 - 0x0000000000025000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 665E3FF6-46CC-11D4-9A38-0090273FC14D FC42424
+PROGRESS CODE: V03040003 I0
+Loading driver F099D67F-71AE-4C36-B2A3-DCEB0EB2B7D8
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9F0D7A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\WatchdogTimer.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFC50000
+Loading driver at 0x00009EF2000 EntryPoint=0x0000FC51050 WatchdogTimer.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9F0D710
+ProtectUefiImageCommon - 0x9F0D7A8
+  - 0x0000000009EF2000 - 0x0000000000006000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 665E3FF5-46CC-11D4-9A38-0090273FC14D FC54064
+PROGRESS CODE: V03040003 I0
+Loading driver 51CCF399-4FDF-4E55-A45B-E123F84D456A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EFE028
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Console\ConPlatformDxe\ConPlatformDxe\DEBUG\ConPlatformDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFC60000
+Loading driver at 0x00009E71000 EntryPoint=0x0000FC61050 ConPlatformDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EFEF10
+ProtectUefiImageCommon - 0x9EFE028
+  - 0x0000000009E71000 - 0x0000000000009000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC671AC
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC671D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC671C4
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC67194
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC671D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC671C4
+PROGRESS CODE: V03040003 I0
+Loading driver 408EDCEC-CF6D-477C-A5A8-B4844E3DE281
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EFE2A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Console\ConSplitterDxe\ConSplitterDxe\DEBUG\ConSplitterDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFC70000
+Loading driver at 0x00009E2B000 EntryPoint=0x0000FC710D0 ConSplitterDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EFE490
+ProtectUefiImageCommon - 0x9EFE2A8
+  - 0x0000000009E2B000 - 0x000000000000E000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC7C260
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC7C42C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC7C3E4
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC7C328
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC7C414
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC7C3F0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC7C310
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC7C3CC
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC7C3FC
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC7C144
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC7C408
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC7C3D8
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC7C278
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC7C420
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC7C3C0
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B FC7C16C
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA FC7C184
+InstallProtocolInterface: 31878C87-0B75-11D5-9A4F-0090273FC14D FC7C1BC
+InstallProtocolInterface: 8D59D32B-C655-4AE9-9B15-F25904992A43 FC7C1FC
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B FC7C29C
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B FC7C34C
+PROGRESS CODE: V03040003 I0
+Loading driver CCCB0C28-4B24-11D5-9A5A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EFB428
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Console\GraphicsConsoleDxe\GraphicsConsoleDxe\DEBUG\GraphicsConsoleDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFC80000
+Loading driver at 0x00009E7A000 EntryPoint=0x0000FC81050 GraphicsConsoleDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EFA010
+ProtectUefiImageCommon - 0x9EFB428
+  - 0x0000000009E7A000 - 0x000000000000A000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC871BC
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC8876C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC88760
+PROGRESS CODE: V03040003 I0
+Loading driver 9E863906-A40F-4875-977F-5B93FF237FC6
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EFA828
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Console\TerminalDxe\TerminalDxe\DEBUG\TerminalDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFC90000
+Loading driver at 0x00009E0A000 EntryPoint=0x0000FC91050 TerminalDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EFA610
+ProtectUefiImageCommon - 0x9EFA828
+  - 0x0000000009E0A000 - 0x0000000000010000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FC9E2C0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FC9E430
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FC9E424
+PROGRESS CODE: V03040003 I0
+Loading driver 6B38F7B4-AD98-40E9-9093-ACA2B5A253C4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EF9028
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe\DEBUG\DiskIoDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFCA0000
+Loading driver at 0x00009E20000 EntryPoint=0x0000FCA1050 DiskIoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EF9F90
+ProtectUefiImageCommon - 0x9EF9028
+  - 0x0000000009E20000 - 0x000000000000B000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FCA90C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FCA9130
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FCA913C
+PROGRESS CODE: V03040003 I0
+Loading driver 1FA1F39E-FEFF-4AAE-BD7B-38A070A3B609
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EF98A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe\DEBUG\PartitionDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFCB0000
+Loading driver at 0x00009DFC000 EntryPoint=0x0000FCB1050 PartitionDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EF9810
+ProtectUefiImageCommon - 0x9EF98A8
+  - 0x0000000009DFC000 - 0x000000000000E000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FCBC104
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FCBC140
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FCBC134
+PROGRESS CODE: V03040003 I0
+Loading driver CD3BAFB6-50FB-4FE8-8E4E-AB74D2C1A600
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EF93A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe\DEBUG\EnglishDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFCC0000
+Loading driver at 0x00009E5E000 EntryPoint=0x0000FCC1050 EnglishDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EF8B10
+ProtectUefiImageCommon - 0x9EF93A8
+  - 0x0000000009E5E000 - 0x0000000000007000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 1D85CD7F-F43D-11D2-9A0C-0090273FC14D FCC5074
+InstallProtocolInterface: A4C751FC-23AE-4C3E-92E9-4964CF63F349 FCC50B0
+PROGRESS CODE: V03040003 I0
+Loading driver 93B80004-9FB3-11D4-9A3A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EF8828
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFCD0000
+Loading driver at 0x00009DB7000 EntryPoint=0x0000FCD1050 PciBusDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EF8590
+ProtectUefiImageCommon - 0x9EF8828
+  - 0x0000000009DB7000 - 0x0000000000022000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FCF0244
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FCF026C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FCF0278
+InstallProtocolInterface: 19CB87AB-2CB9-4665-8360-DDCF6054F79D FCF025C
+PROGRESS CODE: V03040003 I0
+Loading driver 0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EF1B28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Bus\Scsi\ScsiBusDxe\ScsiBusDxe\DEBUG\ScsiBus.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD00000
+Loading driver at 0x00009DE9000 EntryPoint=0x0000FD01050 ScsiBus.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EF1D10
+ProtectUefiImageCommon - 0x9EF1B28
+  - 0x0000000009DE9000 - 0x0000000000009000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FD070C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FD070DC
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FD070E8
+PROGRESS CODE: V03040003 I0
+Loading driver 0A66E322-3740-4CCE-AD62-BD172CECCA35
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9EF1828
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Bus\Scsi\ScsiDiskDxe\ScsiDiskDxe\DEBUG\ScsiDisk.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD10000
+Loading driver at 0x00009D8E000 EntryPoint=0x0000FD11050 ScsiDisk.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9EF1610
+ProtectUefiImageCommon - 0x9EF1828
+  - 0x0000000009D8E000 - 0x0000000000014000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FD22154
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FD22198
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FD2218C
+PROGRESS CODE: V03040003 I0
+Loading driver 9842073D-95D9-9F49-BD3F-2E29525125DF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E70028
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuBusDriverDxe\EmuBusDriverDxe\DEBUG\EmuBusDriver.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD30000
+Loading driver at 0x00009DE0000 EntryPoint=0x0000FD31050 EmuBusDriver.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E70F90
+ProtectUefiImageCommon - 0x9E70028
+  - 0x0000000009DE0000 - 0x0000000000009000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FD370C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FD370DC
+PROGRESS CODE: V03040003 I0
+Loading driver BCC87E0D-86D6-4D4D-8040-2D983D368BD1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E708A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuGopDxe\EmuGopDxe\DEBUG\EmuGopDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD40000
+Loading driver at 0x00009DF2000 EntryPoint=0x0000FD41050 EmuGopDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E70210
+ProtectUefiImageCommon - 0x9E708A8
+  - 0x0000000009DF2000 - 0x000000000000A000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FD480F4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FD4810C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FD48118
+PROGRESS CODE: V03040003 I0
+Loading driver 35B72237-3926-CF4A-A7F3-1449F9E0E4BD
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E70328
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuSimpleFileSystemDxe\EmuSimpleFileSystemDxe\DEBUG\EmuSimpleFileSystem.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD50000
+Loading driver at 0x00009E65000 EntryPoint=0x0000FD51050 EmuSimpleFileSystem.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E6FF90
+ProtectUefiImageCommon - 0x9E70328
+  - 0x0000000009E65000 - 0x0000000000008000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FD560A4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FD560C8
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FD560BC
+PROGRESS CODE: V03040003 I0
+Loading driver C6760651-A38D-5F4F-AEAF-F6661549DF75
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E6F0A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuBlockIoDxe\EmuBlockIoDxe\DEBUG\EmuBlockIo.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD60000
+Loading driver at 0x00009DA4000 EntryPoint=0x0000FD61050 EmuBlockIo.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E6F990
+ProtectUefiImageCommon - 0x9E6F0A8
+  - 0x0000000009DA4000 - 0x0000000000009000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FD67104
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FD6711C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FD67128
+InstallProtocolInterface: 0784924F-E296-11D4-9A49-0090273FC14D FD6714C
+InstallProtocolInterface: 4D330321-025F-4AAC-90D8-5ED900173B63 FD67144
+PROGRESS CODE: V03040003 I0
+Loading driver 22597239-6107-DF44-AD3F-5F053E92222E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1FB28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\EmulatorPkg\EmuSnpDxe\EmuSnpDxe\DEBUG\EmuSnpDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD70000
+Loading driver at 0x00009D71000 EntryPoint=0x0000FD71050 EmuSnpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1FD90
+ProtectUefiImageCommon - 0x9E1FB28
+  - 0x0000000009D71000 - 0x0000000000009000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FD770C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FD773C4
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FD773B8
+PROGRESS CODE: V03040003 I0
+Loading driver 63E3BDCF-2AC7-4AC0-9B92-03A7541422FF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1F128
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\SecurityPkg\Hash2DxeCrypto\Hash2DxeCrypto\DEBUG\Hash2DxeCrypto.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD80000
+Loading driver at 0x00009D5A000 EntryPoint=0x0000FD810D0 Hash2DxeCrypto.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1F290
+ProtectUefiImageCommon - 0x9E1F128
+  - 0x0000000009D5A000 - 0x000000000000B000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: DA836F8D-217F-4CA0-99C2-1CA4E16077EA 9E1EF98
+PROGRESS CODE: V03040003 I0
+Loading driver E4F61863-FE2C-4B56-A8F4-08519BC439DF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1E828
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFD90000
+Loading driver at 0x00009D1F000 EntryPoint=0x0000FD91050 VlanConfigDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1E790
+ProtectUefiImageCommon - 0x9E1E828
+  - 0x0000000009D1F000 - 0x000000000000E000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FD9C548
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FD9C56C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FD9C560
+PROGRESS CODE: V03040003 I0
+Loading driver 025BBFC7-E6A9-4B8B-82AD-6815A1AEAF4A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1D028
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFDA0000
+Loading driver at 0x00009CCC000 EntryPoint=0x0000FDA1050 MnpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1DE90
+ProtectUefiImageCommon - 0x9E1D028
+  - 0x0000000009CCC000 - 0x0000000000014000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FDB20E4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FDB20FC
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FDB2108
+PROGRESS CODE: V03040003 I0
+Loading driver 529D3F93-E8E9-4E73-B1E1-BDF6A9D50113
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1D228
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\ArpDxe\ArpDxe\DEBUG\ArpDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFDC0000
+Loading driver at 0x00009D65000 EntryPoint=0x0000FDC1050 ArpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1D410
+ProtectUefiImageCommon - 0x9E1D228
+  - 0x0000000009D65000 - 0x000000000000C000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FDCA0D4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FDCA0F8
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FDCA0EC
+PROGRESS CODE: V03040003 I0
+Loading driver 94734718-0BBC-47FB-96A5-EE7A5AE6A2AD
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1CC28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\Dhcp4Dxe\Dhcp4Dxe\DEBUG\Dhcp4Dxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFDD0000
+Loading driver at 0x00009C81000 EntryPoint=0x0000FDD1050 Dhcp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1C990
+ProtectUefiImageCommon - 0x9E1CC28
+  - 0x0000000009C81000 - 0x0000000000012000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FDE0194
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FDE01C0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FDE01B4
+PROGRESS CODE: V03040003 I0
+Loading driver 9FB1A1F3-3B71-4324-B39A-745CBB015FFF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1C2A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFDF0000
+Loading driver at 0x00009BFA000 EntryPoint=0x0000FDF1050 Ip4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1BE10
+ProtectUefiImageCommon - 0x9E1C2A8
+  - 0x0000000009BFA000 - 0x0000000000021000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FE0F6B4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FE0F6EC
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FE0F6F8
+PROGRESS CODE: V03040003 I0
+Loading driver 6D6963AB-906D-4A65-A7CA-BD40E5D6AF2B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1B5A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFE20000
+Loading driver at 0x00009C93000 EntryPoint=0x0000FE21050 Udp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1B410
+ProtectUefiImageCommon - 0x9E1B5A8
+  - 0x0000000009C93000 - 0x0000000000013000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FE31154
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FE31180
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FE31174
+PROGRESS CODE: V03040003 I0
+Loading driver DC3641B8-2FA8-4ED3-BC1F-F9962A03454B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1AC28
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\Mtftp4Dxe\Mtftp4Dxe\DEBUG\Mtftp4Dxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFE40000
+Loading driver at 0x00009B97000 EntryPoint=0x0000FE41050 Mtftp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9E1A810
+ProtectUefiImageCommon - 0x9E1AC28
+  - 0x0000000009B97000 - 0x0000000000013000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FE510F4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FE51120
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FE51114
+PROGRESS CODE: V03040003 I0
+Loading driver B95E9FDA-26DE-48D2-8807-1F9107AC5E3A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9E1A2A8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\UefiPxeBcDxe\UefiPxeBcDxe\DEBUG\UefiPxeBcDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFE60000
+Loading driver at 0x00009B1C000 EntryPoint=0x0000FE61050 UefiPxeBcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9DDFC10
+ProtectUefiImageCommon - 0x9E1A2A8
+  - 0x0000000009B1C000 - 0x000000000001E000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FE7C32C
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FE7C3A4
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FE7C398
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FE7C314
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FE7C3A4
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FE7C398
+PROGRESS CODE: V03040003 I0
+Loading driver 961578FE-B6B7-44C3-AF35-6BC705CD2B1F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9DDF228
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFE80000
+Loading driver at 0x00009B47000 EntryPoint=0x0000FE81050 Fat.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9DDF390
+ProtectUefiImageCommon - 0x9DDF228
+  - 0x0000000009B47000 - 0x0000000000012000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FE90124
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FE90148
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FE9013C
+PROGRESS CODE: V03040003 I0
+Loading driver FE3542FE-C1D3-4EF8-657C-8048606FF671
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9DDEBA8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFEA0000
+Loading driver at 0x00009A95000 EntryPoint=0x0000FEA1050 DriverSample.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9DDEA90
+ProtectUefiImageCommon - 0x9DDEBA8
+  - 0x0000000009A95000 - 0x0000000000021000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B FEBDF9C
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 9DDE23C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B FEBDFCC
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 9DDE23C
+PROGRESS CODE: V03040003 I0
+Loading driver 1A7E4468-2F55-4A56-903C-01265EB7622B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9D83BA8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0xFED0000
+Loading driver at 0x00009A33000 EntryPoint=0x0000FED1050 TcpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9DDBB90
+ProtectUefiImageCommon - 0x9D83BA8
+  - 0x0000000009A33000 - 0x0000000000020000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FEEE26C
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FEEE284
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FEEE290
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 FEEE1C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D FEEE284
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 FEEE290
+PROGRESS CODE: V03040003 I0
+PROGRESS CODE: V03041001 I0
+[Bds] Entry...
+[BdsDxe] Locate Variable Policy protocol - Success
+Variable Driver Auto Update PlatformLang, PlatformLang:en, Lang:eng Status: Success
+PROGRESS CODE: V03051005 I0
+DXE - Total Runtime Image Count: 0x7
+DXE - Dump Runtime Image Records:
+MonotonicCounterRuntimeDxe.efi: 0x9F69000 - 0x9F70000
+  Code Section: 0x9F6A000 - 0x9F6D000
+CapsuleRuntimeDxe.efi: 0x9F70000 - 0x9F78000
+  Code Section: 0x9F71000 - 0x9F75000
+StatusCodeHandlerRuntimeDxe.efi: 0xA0D9000 - 0xA0E2000
+  Code Section: 0xA0DA000 - 0xA0DE000
+VariableRuntimeDxe.efi: 0xA8B3000 - 0xA8C9000
+  Code Section: 0xA8B4000 - 0xA8C4000
+FwBlockService.efi: 0xAD97000 - 0xAD9F000
+  Code Section: 0xAD98000 - 0xAD9C000
+RuntimeDxe.efi: 0xADBA000 - 0xADC1000
+  Code Section: 0xADBB000 - 0xADBE000
+ReportStatusCodeRouterRuntimeDxe.efi: 0xAE22000 - 0xAE2A000
+  Code Section: 0xAE23000 - 0xAE27000
+[Variable]END_OF_DXE is signaled
+Initialize variable error flag (FF)
+[Bds]RegisterKeyNotify: 000C/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0011/0000 80000000/00 Success
+InstallProtocolInterface: 9842073D-95D9-9F49-BD3F-2E29525125DF 9D83590
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 9DDAD10
+InstallProtocolInterface: 453368F6-7C85-434A-A98A-72D1B7FFA926 9DDAC9C
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 9D7E01C
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 9D7E02C
+InstallProtocolInterface: 31878C87-0B75-11D5-9A4F-0090273FC14D 9D7E038
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 9D7E490
+GraphicsConsole video resolution 800 x 600
+Graphics - Mode 0, Column = 80, Row = 25
+Graphics - Mode 1, Column = 0, Row = 0
+Graphics - Mode 2, Column = 100, Row = 31
+Graphics Console Started, Mode: 0
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 9D7EC18
+InstallProtocolInterface: D3B36F2C-D551-11D4-9A46-0090273FC14D 0
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A FC7C2DC
+InstallProtocolInterface: D3B36F2B-D551-11D4-9A46-0090273FC14D 0
+Enter memory test.
+Perform memory test (ESC to skip).
+134217728 bytes of system memory tested OK
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B F28FF10
+InstallProtocolInterface: 453368F6-7C85-434A-A98A-72D1B7FFA926 9D7C39C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B F28FA10
+InstallProtocolInterface: 453368F6-7C85-434A-A98A-72D1B7FFA926 F28F99C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B F28F710
+InstallProtocolInterface: 453368F6-7C85-434A-A98A-72D1B7FFA926 F28F39C
+InstallProtocolInterface: 964E5B22-6459-11D2-8E39-00A0C969723B F28EB98
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B F28E120
+InstallProtocolInterface: A77B2472-E282-4E9F-A245-C2C0E27BBCC1 F28E140
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B F28D018
+InstallProtocolInterface: 151C8EAE-7F2C-472C-9E54-9828194F6A88 F28D028
+ BlockSize : 512 
+ LastBlock : FFFFFFFFFFFFFFFF 
+[Bds]RegisterKeyNotify: 0000/000D 80000000/00 Success
+[Bds]OsIndication: 0000000000000000
+[Bds]=============Begin Load Options Dumping ...=============
+  Driver Options:
+  SysPrep Options:
+  Boot Options:
+    Boot0004: UEFI Shell 		 0x0001
+    Boot0001: UEFI Misc Device 		 0x0001
+    Boot0002: UEFI Non-Block Boot Device 		 0x0001
+    Boot0003: UEFI BootManagerMenuApp 		 0x0001
+    Boot0000: UEFI Enter Setup 		 0x0109
+  PlatformRecovery Options:
+    PlatformRecovery0000: Default PlatformRecovery 		 0x0001
+[Bds]=============End Load Options Dumping=============
+[Bds]BdsWait ...Zzzzzzzzzzzz...
+[Bds]BdsWait(10)..Zzzz...
+[Bds]BdsWait(9)..Zzzz...
+[Bds]BdsWait(8)..Zzzz...
+[Bds]BdsWait(7)..Zzzz...
+[Bds]BdsWait(6)..Zzzz...
+[Bds]BdsWait(5)..Zzzz...
+[Bds]BdsWait(4)..Zzzz...
+[Bds]BdsWait(3)..Zzzz...
+[Bds]BdsWait(2)..Zzzz...
+[Bds]BdsWait(1)..Zzzz...
+[Bds]Exit the waiting!
+PROGRESS CODE: V03051007 I0
+[Bds]Stop Hotkey Service!
+[Bds]UnregisterKeyNotify: 000C/0000 Success
+[Bds]UnregisterKeyNotify: 0011/0000 Success
+[Bds]UnregisterKeyNotify: 0000/000D Success
+PROGRESS CODE: V03051001 I0
+[Bds]Booting UEFI Shell
+[Bds] Expand Fv(6D99E806-3D38-42C2-A095-5F4300BFD7DC)/FvFile(7C04A583-9E3E-4F1C-AD65-E05268D0B4D1)/Shell -> Fv(6D99E806-3D38-42C2-A095-5F4300BFD7DC)/FvFile(7C04A583-9E3E-4F1C-AD65-E05268D0B4D1)/Shell
+PROGRESS CODE: V03058000 I0
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B F260EA8
+LoadLibraryEx (
+  E:\edk2\Build\EmulatorIA32\DEBUG_VS2022\IA32\ShellPkg\Application\Shell\Shell\DEBUG\Shell.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES) @ 0x10F80000
+Loading driver at 0x0000F029000 EntryPoint=0x00010F81090 Shell.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9D7D810
+ProtectUefiImageCommon - 0xF260EA8
+  - 0x000000000F029000 - 0x000000000011B000
+PROGRESS CODE: V03058001 I0
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B F280194
+InstallProtocolInterface: 752F3136-4E16-4FDC-A22A-E5F46812F4CA F27BE90
+InstallProtocolInterface: 6302D008-7F9B-4F30-87AC-60C9FEF5DA4E 1102FA40
+^C

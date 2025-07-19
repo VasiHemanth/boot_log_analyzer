@@ -1,0 +1,6 @@
+venv/
+analysis_output/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
