@@ -19,7 +19,6 @@ from langchain_community.document_loaders import (
     JSONLoader
 )
 from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
 
 class SimpleFileAnalyzer:
     def __init__(self, model_name: str = "llama2"):
@@ -113,12 +112,13 @@ class SimpleFileAnalyzer:
             input_variables=["content", "max_length"]
         )
         
-        chain = LLMChain(llm=self.llm, prompt=prompt)
-        
+        chain = prompt | self.llm         
+
         # Truncate content if too long
         content = self.file_content[:8000] if len(self.file_content) > 8000 else self.file_content
         
-        response = chain.invoke(content=content, max_length=max_length)
+        response = chain.invoke({"content": content, "max_length": max_length})
+
         return response
 
     def extract_key_points(self) -> str:
@@ -152,12 +152,12 @@ class SimpleFileAnalyzer:
             input_variables=["content"]
         )
         
-        chain = LLMChain(llm=self.llm, prompt=prompt)
+        chain = prompt | self.llm
         
         # Use first 8000 characters to avoid token limits
         content = self.file_content[:8000] if len(self.file_content) > 8000 else self.file_content
         
-        response = chain.run(content=content)
+        response = chain.invoke({"content": content})
         return response
 
     def analyze_sentiment(self) -> str:
@@ -189,11 +189,11 @@ class SimpleFileAnalyzer:
             input_variables=["content"]
         )
         
-        chain = LLMChain(llm=self.llm, prompt=prompt)
+        chain = prompt | self.llm
         
         content = self.file_content[:6000] if len(self.file_content) > 6000 else self.file_content
         
-        response = chain.run(content=content)
+        response = chain.invoke({"content": content})
         return response
 
     def classify_document(self) -> str:
@@ -225,11 +225,11 @@ class SimpleFileAnalyzer:
             input_variables=["content"]
         )
         
-        chain = LLMChain(llm=self.llm, prompt=prompt)
+        chain = prompt | self.llm
         
         content = self.file_content[:5000] if len(self.file_content) > 5000 else self.file_content
         
-        response = chain.run(content=content)
+        response = chain.invoke({"content": content})
         return response
 
     def custom_analysis(self, analysis_prompt: str) -> str:
@@ -259,11 +259,11 @@ class SimpleFileAnalyzer:
             input_variables=["analysis_instruction", "content"]
         )
         
-        chain = LLMChain(llm=self.llm, prompt=prompt)
+        chain = prompt | self.llm
         
         content = self.file_content[:8000] if len(self.file_content) > 8000 else self.file_content
         
-        response = chain.run(analysis_instruction=analysis_prompt, content=content)
+        response = chain.invoke({"analysis_instruction": analysis_prompt, "content": content})
         return response
 
     def get_file_stats(self) -> Dict[str, Any]:
@@ -335,7 +335,8 @@ def main():
     
     # Get file path from user
     # file_path = input("Enter the path to your file: ").strip()
-    file_path="/Users/hemanthvasi/Documents/Developer/Gen AI Projects/sai/boot.log"
+    # file_path="/Users/hemanthvasi/Documents/Developer/Gen AI Projects/sai/boot.log"
+    file_path="/Users/hemanthvasi/Documents/Developer/Gen AI Projects/uefi_log_analyzer/boot.log"
     
     if not file_path:
         print("No file path provided. Using example...")
@@ -401,7 +402,7 @@ def main():
                 print(analyzer.custom_analysis(custom_prompt))
             elif choice == "6":
                 # Run all analyses
-                analyses = analyze_file(file_path)
+                analyses = analyze_file(file_path, model_name="gemma3:latest")  # Change model as needed
                 for key, value in analyses.items():
                     if key != "file_stats":
                         print(f"\n{key.upper().replace('_', ' ')}:")
